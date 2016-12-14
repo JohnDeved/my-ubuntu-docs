@@ -86,9 +86,6 @@ _source: [https://www.youtube.com/watch?v=9qIK8ZC9BnU](https://www.youtube.com/w
     
 *   press 'generate'
     > ![](https://i.gyazo.com/a63723692c9a1e93394b2da7f4c55e98.png)
-    
-_source: [https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)_
-
 
 # add SSH-key for ssh or git
 
