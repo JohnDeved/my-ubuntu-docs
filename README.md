@@ -31,14 +31,19 @@
 
 # Git Deployment
 
+
+- create a site folder
+  - ````cd /var/www````
+  - ````mkdir myproject.com````
+
 - create a repository folder
   - ````cd /var/````
   - ````mkdir repo````
   - ````cd repo````
-  - ````mkdir myProject.git````
+  - ````mkdir myproject.git````
 
 - init git repository (bare)
-  - ````cd myProject.git````
+  - ````cd myproject.git````
   - ````git init --bare````
 
 - create hook that deploys the code
@@ -54,11 +59,11 @@
 
             forever restartall
 
-  - give script exec permission
-      ````chmod +x post-receive````
+- give script exec permission
+  - ````chmod +x post-receive````
       
-  - add as remote on your local machine
-      eg ````ssh://root@183.62.177.218/var/repo/myproject.git````
+- add as remote on your local machine
+  - ````git remote add live ssh://root@183.62.177.218/var/repo/myproject.git````
 
 *source: https://www.youtube.com/watch?v=9qIK8ZC9BnU*
 
