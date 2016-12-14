@@ -76,6 +76,20 @@ _source: [https://nodejs.org/en/download/package-manager/](https://nodejs.org/en
 
 _source: [https://www.youtube.com/watch?v=9qIK8ZC9BnU](https://www.youtube.com/watch?v=9qIK8ZC9BnU)_
 
+# generate SSH-key with Gitkraken
+
+*   go to preferences.....
+    > ![](https://i.gyazo.com/3448442c9d725ad8f585b2cfa87608f6.png)
+    
+*   go to authentication
+    > ![](https://i.gyazo.com/b4b41440d02857dfa1b8bc2deed12eec.png)
+    
+*   press 'generate'
+    > ![](https://i.gyazo.com/a63723692c9a1e93394b2da7f4c55e98.png)
+    
+_source: [https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)_
+
+
 # add SSH-key for ssh or git
 
 *   edit keys file
