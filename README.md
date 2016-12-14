@@ -40,7 +40,7 @@
 
   - ````cd /var/````
   - ````mkdir repo````
-  - ````cd /var/````
+  - ````cd repo````
   - ````mkdir /myProject.git/````
 
 - init git repository (bare)
