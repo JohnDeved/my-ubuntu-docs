@@ -1,7 +1,7 @@
 # Login to SSH
 
 - download & install open ssh
-  - https://www.openssh.com/
+  - http://www.mls-software.com/opensshd.html
 
 - open command prompt
   - win + "````cmd````"
