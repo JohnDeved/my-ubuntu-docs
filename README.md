@@ -1,6 +1,6 @@
 # Login to SSH
 
-- download & install open ssh
+- download & install OpenSSH
   - http://www.mls-software.com/opensshd.html
 
 - open command prompt
@@ -59,7 +59,7 @@
 
 *source: https://www.youtube.com/watch?v=9qIK8ZC9BnU*
 
-# add SSH key for git
+# add SSH-key for ssh or git
 
 - edit keys file
   - ````vi .etc/authorized_keys````
@@ -69,6 +69,30 @@
     - ````reload ssh````
 
 *source: https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2*
+
+# import SSH-key into OpenSSH
+
+- set HOME variable in windows to your user folder
+  - tutorial (win10): http://superuser.com/questions/949560/how-do-i-set-system-environment-variables-in-windows-10
+
+- download puttygen
+  - http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+  
+- load private key
+   > ![](https://i.gyazo.com/c581075a12fe5c247418aea4fd84ad2b.png)
+   
+- select all files
+   > ![](https://gyazo.com/3b93c517f9b32f83bb11a77a18ad8654)
+   
+- select private key
+   > ![](https://i.gyazo.com/1572aaf07e479c25a3d6340b08f4a6f9.png)
+   
+- export OpenSSH key
+   > ![](https://i.gyazo.com/1e859a154e98345d8e7f44969a58ee71.png)
+   
+- save it as ````id_rsa````` in your .ssh folder
+
+*source: http://stackoverflow.com/questions/24740943/how-to-add-existing-key-to-openssh-on-windows*  
 
 # Boot Script
 
