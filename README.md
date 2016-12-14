@@ -49,7 +49,8 @@
                 git --work-tree=/var/www/myproject.com --git-dir=/var/repo/myproject.git checkout -f
 
    > ![cmd](https://i.gyazo.com/6c135d9c0d87cbc782d8641e7b41b2b1.png)
-  - forever restart script can also be added here:
+  
+  - restart scripts can also be added here
 
             forever restartall
 
