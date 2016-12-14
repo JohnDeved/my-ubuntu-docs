@@ -90,7 +90,7 @@
 - export OpenSSH key
    > ![](https://i.gyazo.com/1e859a154e98345d8e7f44969a58ee71.png)
    
-- save it as ````id_rsa````` in your .ssh folder
+- save it as "````id_rsa````" in your .ssh folder
 
 *source: http://stackoverflow.com/questions/24740943/how-to-add-existing-key-to-openssh-on-windows*  
 
