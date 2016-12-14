@@ -94,7 +94,7 @@
 - select 'all files'
    > ![](https://i.gyazo.com/3b93c517f9b32f83bb11a77a18ad8654.png)
    
-- select private key
+- select your private key that you generated with your eg. git client
    > ![](https://i.gyazo.com/1572aaf07e479c25a3d6340b08f4a6f9.png)
    
 - export OpenSSH key
