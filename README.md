@@ -7,7 +7,7 @@
   - win + "````cmd````"
 
 - use openssh to login
-  - ````shh user@adress````
+  - ````ssh user@adress````
   > ![cmd](https://i.gyazo.com/803230452719537b262a9f3dcf63f373.png)
   
   - enter password
