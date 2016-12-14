@@ -105,8 +105,8 @@
             </VirtualHost>
 
 - enable site    
-  - ````sudo a2ensite mysite.conf````
-  - you can also disable sites the same way: ````sudo a2dissite mysite.conf````
+  - ````a2ensite mysite.conf````
+  - you can also disable sites the same way: ````a2dissite mysite.conf````
 
 - restart Apache    
   - ````service apache2 restart````
