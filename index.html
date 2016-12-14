@@ -58,15 +58,19 @@
 <h1 id="git-deployment">Git Deployment</h1>
 
 <ul>
+<li><p>create a site folder</p>
+
+<ul><li><code>cd /var/www</code></li>
+<li><code>mkdir myproject.com</code></li></ul></li>
 <li><p>create a repository folder</p>
 
 <ul><li><code>cd /var/</code></li>
 <li><code>mkdir repo</code></li>
 <li><code>cd repo</code></li>
-<li><code>mkdir myProject.git</code></li></ul></li>
+<li><code>mkdir myproject.git</code></li></ul></li>
 <li><p>init git repository (bare)</p>
 
-<ul><li><code>cd myProject.git</code></li>
+<ul><li><code>cd myproject.git</code></li>
 <li><code>git init --bare</code></li></ul></li>
 <li><p>create hook that deploys the code</p>
 
@@ -84,11 +88,13 @@
 <ul><li><p>restart scripts can also be added here</p>
 
 <pre><code>forever restartall
-</code></pre></li>
-<li><p>give script exec permission <br>
-<code>chmod +x post-receive</code></p></li>
-<li><p>add as remote on your local machine <br>
-eg <code>ssh://root@183.62.177.218/var/repo/myproject.git</code></p></li></ul></li>
+</code></pre></li></ul></li>
+<li><p>give script exec permission</p>
+
+<ul><li><code>chmod +x post-receive</code></li></ul></li>
+<li><p>add as remote on your local machine</p>
+
+<ul><li><code>git remote add live ssh://root@183.62.177.218/var/repo/myproject.git</code></li></ul></li>
 </ul>
 
 <p><em>source: <a href="https://www.youtube.com/watch?v=9qIK8ZC9BnU">https://www.youtube.com/watch?v=9qIK8ZC9BnU</a></em></p>
