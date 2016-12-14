@@ -52,6 +52,9 @@
 
   - give script exec permission
       ````chmod +x post-receive````
+      
+  - add as remote on your local machine
+      eg ````ssh://root@183.62.177.218/var/repo/myproject.git````
 
 *source: https://www.youtube.com/watch?v=9qIK8ZC9BnU*
 
