@@ -8,10 +8,10 @@
 
 - use openssh to login
   - ````shh user@adress````
-  ![cmd](https://i.gyazo.com/803230452719537b262a9f3dcf63f373.png)
+  > ![cmd](https://i.gyazo.com/803230452719537b262a9f3dcf63f373.png)
   
   - enter password
- ![cmd](https://i.gyazo.com/7136fbc0f033a3c34bb67cf3046f98d3.png)
+  > ![cmd](https://i.gyazo.com/7136fbc0f033a3c34bb67cf3046f98d3.png)
 
 # Node.js & npm setup
 
@@ -45,7 +45,7 @@
                 #!/bin/sh
                 git --work-tree=/var/www/myproject.com --git-dir=/var/repo/myproject.git checkout -f
 
-   ![cmd](https://i.gyazo.com/6c135d9c0d87cbc782d8641e7b41b2b1.png)
+   > ![cmd](https://i.gyazo.com/6c135d9c0d87cbc782d8641e7b41b2b1.png)
   - forever restart script can also be added here:
 
             forever restartall
