@@ -78,4 +78,44 @@
             forever start <your script path>
 
 *source: https://www.youtube.com/watch?v=P4mT5Tbx_KE*  
+
+# Create Proxy to host multiple sites
+
+- enable proxy modules
+    -
+
+  - ````a2enmod proxy````
+  - ````a2enmod proxy_http````
+ 
+- create sites-available file
+    -
+  
+  - ````cd /etc/apache2/sites-available````
+  - ````vi mysite.conf````
+  - insert your infos
+
+            <VirtualHost *:80>
+                    ServerName sub.mydomain.com
+                    ProxyRequests off
+                    <Proxy *>
+                        Order allow,deny
+                        Allow from all
+                    </Proxy>
+                    ProxyPass / http://localhost:3000/
+                    ProxyPassReverse / http://localhost:3000/
+                    ProxyPreserveHost on
+            </VirtualHost>
+
+- enable site
+    -
+    
+  - ````sudo a2ensite mysite.conf````
+  - you can also disable sites the same way: ````sudo a2dissite mysite.conf````
+
+- restart Apache
+    -
+    
+  - ````service apache2 restart````
+  
+*source: https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension*  
             
