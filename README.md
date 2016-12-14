@@ -33,9 +33,10 @@
   - ````cd /var/````
   - ````mkdir repo````
   - ````cd repo````
-  - ````mkdir /myProject.git/````
+  - ````mkdir myProject.git````
 
 - init git repository (bare)
+  - ````cd myProject.git````
   - ````git init --bare````
 
 - create hook that deploys the code
