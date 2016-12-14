@@ -2,7 +2,7 @@
 
 - download & install open ssh
     -
-  > https://www.openssh.com/
+  - https://www.openssh.com/
 
 - open command prompt
     -
@@ -32,7 +32,6 @@
   - ````npm -v````
 
 *source: https://nodejs.org/en/download/package-manager/*
-
 
 # Git Deployment
 
@@ -67,3 +66,16 @@
       ````chmod +x post-receive````
 
 *source: https://www.youtube.com/watch?v=9qIK8ZC9BnU*
+
+# Boot Script
+
+- edit rc.local
+    -
+
+  - ````vi /etc/rc.local````
+  - add scripts that should run on boot
+
+            forever start <your script path>
+
+*source: https://www.youtube.com/watch?v=P4mT5Tbx_KE*  
+            
